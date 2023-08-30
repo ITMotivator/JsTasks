@@ -52,3 +52,37 @@ table.cells td.borderGreen {
 table.cells td.borderRed {
     border-color: red;
 }
+
+@media (max-width: 769px) {
+    table.cells td {
+        font-size: 14px;
+        border-width: 2px;
+        width: 40px;
+        height: 40px;
+        padding: 3px;
+    }
+    img.cell {
+        height: 30px;
+    }
+}
+
+@media (max-width: 577px) {
+    .main-task{
+        width: 100%;
+     }
+
+     table.cells td {
+        font-size: 10px;
+        border-width: 1px;
+        width: 25px;
+        height: 25px;
+    }
+
+    img.cell {
+        height: 19px;
+    }
+
+    .main-task p {
+        padding: 5px;
+    }
+}

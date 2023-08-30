@@ -120,16 +120,7 @@ p.hint {
 
 
 @media (max-width: 425px) {
-    table.cells td {
-        font-size: 10px;
-        border: 1px solid #4682B4;
-        width: 25px;
-        height: 25px;
-        padding: 2px;
-    }
-    img.cell {
-        height: 19px;
-    }
+    
     table.keyboard td {
         font-size: 10px;
         line-height: 10px;
@@ -152,16 +143,7 @@ p.hint {
     .main-task .kbText {
         width: 415px;
     }
-    table.cells td {
-        font-size: 12px;
-        border: 2px solid #4682B4;
-        width: 30px;
-        height: 30px;
-        padding: 2px;
-    }
-    img.cell {
-        height: 24px;
-    }
+    
     .getHoroscope .inputsDiv {
         width: 30%;
     }
