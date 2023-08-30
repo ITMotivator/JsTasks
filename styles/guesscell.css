@@ -76,6 +76,7 @@ table.cells td.borderRed {
         border-width: 1px;
         width: 25px;
         height: 25px;
+        padding: 2px
     }
 
     img.cell {
