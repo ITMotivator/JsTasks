@@ -28,3 +28,19 @@ span.answer {
     align-items: center;
 }
 
+@media (max-width: 767px) {
+    .wrapper {
+        flex-wrap: wrap;
+    }
+    .imgFigure, .inputsDiv, .result{
+        width: 50%;
+     }
+}
+
+@media (max-width: 577px) {
+    .main-task, .imgFigure, .inputsDiv, .result{
+        width: 100%;
+     }
+
+
+}
