@@ -1,5 +1,5 @@
 h3 {
-    margin-bottom: 100px;
+    margin-bottom: 30px;
 }
 
 p[data-result] {
@@ -11,4 +11,19 @@ p[data-result] {
     display: block;
     max-width: 170px;
     flex-shrink: 0;
+}
+
+@media (max-width: 769px) {
+    .wrapper {
+        flex-wrap: wrap;
+    }
+    .robotImg, .inputsDiv, .result{
+        width: 50%;
+     }
+}
+
+@media (max-width: 577px) {
+    .main-task, .robotImg, .inputsDiv, .result{
+        width: 100%;
+     }
 }

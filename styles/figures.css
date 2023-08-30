@@ -24,11 +24,7 @@ span.answer {
     flex-shrink: 0;
 }
 
-.calcFigures .wrapper {
-    align-items: center;
-}
-
-@media (max-width: 767px) {
+@media (max-width: 769px) {
     .wrapper {
         flex-wrap: wrap;
     }
