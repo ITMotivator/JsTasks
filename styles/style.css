@@ -120,10 +120,6 @@ p.hint {
 
 
 @media (max-width: 425px) {
-    .main-menu, .result, .resultGuessNum, .inputsDiv, .descriptionDiv, .kbText  {
-        width: 100%;
-    }
-
     table.cells td {
         font-size: 10px;
         border: 1px solid #4682B4;
@@ -146,12 +142,6 @@ p.hint {
     #capsLock, #enter, #space {
         font-size: 8px;
     }
-    .main-task .kbText, .tagsInfo .inputsDiv, 
-    .tagsInfo .result, .historicalEvents .result,
-    .getHoroscope .inputsDiv, .getHoroscope .result {
-        width: 100%;
-    }
-
     .historicalEvents .inputsDiv {
         width: 100%;
         margin-right: 0;
@@ -159,9 +149,6 @@ p.hint {
 }
 
 @media (min-width: 426px) and (max-width: 767px) {
-    .main-menu, .result, .resultGuessNum  {
-        width: 90%;
-    }
     .main-task .kbText {
         width: 415px;
     }
@@ -175,14 +162,6 @@ p.hint {
     img.cell {
         height: 24px;
     }
-    p {
-        margin-bottom: 10px;
-    }
-    
-    .wrapper {
-        flex-wrap: wrap;
-    }
-
     .getHoroscope .inputsDiv {
         width: 30%;
     }
