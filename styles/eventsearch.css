@@ -1,0 +1,27 @@
+.result {
+    width: 70%;
+}
+
+table {
+    width: 100%;
+}
+
+.inputsDiv {
+    width: 30%;
+    margin-right: 10px;
+}
+
+.wrapper table td {
+    color: black;
+    background-color: #E0FFFF;
+    font-size: 14px;
+    font-weight: 500;
+    border: 2px solid #4682B4;
+    padding: 10px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.wrapper {
+    align-items:flex-start;
+}

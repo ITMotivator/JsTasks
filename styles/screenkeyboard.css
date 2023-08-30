@@ -1,0 +1,35 @@
+table.keyboard td {
+    color: black;
+    background-color: #E0FFFF;
+    font-size: 14px;
+    font-weight: 500;
+    border: 2px solid #4682B4;
+    width: 37px;
+    height: 37px;
+    padding: 3px;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+}
+
+textarea.kbText {
+    display: block;
+    width: 415px;
+    height: 289px;
+    border: 2px solid #4682B4;
+    resize: none;
+    margin: 0 auto;
+}
+
+#capsLock, #enter, #space {
+    font-size: 12px;
+}
+
+#capsLock.uppercase {
+    color: red;
+}
+
+#backSpace {
+    font-size: 16px;
+    font-weight: 900;
+}

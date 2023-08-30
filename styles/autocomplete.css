@@ -1,0 +1,65 @@
+.main-task * {
+    text-align: center;
+}
+
+#states {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+h5 {
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+#states input.form-control {
+    margin: 20px auto 0;
+    text-align: left;
+    width: 250px;
+}
+
+ul {
+	padding: 0;
+	list-style-type: none;
+	background-color: white;
+    width: 250px;
+}
+
+#states ul li {
+	border: 1px solid gray;
+	font-size: 18px;
+	padding: 5px .75rem;
+	text-align: left;
+}
+
+#states ul li:hover {
+	border: 1px solid black;
+	background-color:#f2f2f2;
+	cursor: pointer;
+}
+
+table.info {
+    margin-top: 10px;
+	border-collapse: collapse;
+}
+
+table.info td {
+	background-color: #f2f2f2;
+    font-size: 16px;
+    font-weight: 500;
+    border: 2px solid gray;
+    padding: 10px;
+    text-align: left;
+    vertical-align: middle;
+}
+
+table.info td:first-child {
+	font-weight: 400;
+}
+
+p.country {
+	color:#2F4454;
+	font-size: 20px;
+	font-weight: 700;
+}

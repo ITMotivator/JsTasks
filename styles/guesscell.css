@@ -1,0 +1,54 @@
+.guessCellText {
+    text-align: center;
+    color: #4169E1;
+    font-weight: bold;
+}
+
+.count {
+    text-align: center;
+    color: #008080;
+    font-weight: bold;
+}
+
+span[data-color="count"] {
+    color: #8B0000;
+}
+
+span[data-color="result"] {
+    color: green;
+}
+
+button.guess-cell-btn {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+table.cells td {
+    color: black;
+    background-color: #E0FFFF;
+    font-size: 16px;
+    font-weight: 600;
+    border: 3px solid #4682B4;
+    width: 50px;
+    height: 50px;
+    padding: 5px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+table.cells td:hover {
+    cursor: pointer;
+}
+
+img.cell {
+    height: 34px;
+}
+
+table.cells td.borderGreen {
+    border-color: green;
+}
+
+table.cells td.borderRed {
+    border-color: red;
+}

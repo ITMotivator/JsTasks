@@ -1,0 +1,14 @@
+h3 {
+    margin-bottom: 100px;
+}
+
+p[data-result] {
+    color: #4169E1;
+}
+
+.robotImg {
+    width: 30%;
+    display: block;
+    max-width: 170px;
+    flex-shrink: 0;
+}

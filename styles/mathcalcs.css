@@ -1,0 +1,22 @@
+.taskConditions {
+    width: 30%;
+    text-align: center;
+}
+
+.taskConditions p {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.wrapper {
+    align-items: center;
+}
+
+p[data-answer="answer"] {
+    color:blue;
+}
+
+
+p[data-answer="error"] {
+    color:red;
+}

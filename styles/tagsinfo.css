@@ -1,0 +1,11 @@
+.inputsDiv, .result {
+    width: 50%;
+}
+
+p[data-result] {
+    color: #4169E1;
+}
+
+.wrapper {
+    align-items: flex-start; 
+}

@@ -1,0 +1,59 @@
+
+.main-task * {
+    text-align: center;
+}
+
+h5 {
+    margin-bottom: 30px;
+}
+img.fortune {
+    display: block;
+    height: 100%;
+}
+
+div#timer {
+    height: 200px;
+    margin-bottom: 30px;
+}
+
+.main-task button {
+    width: 200px;
+    display: block;
+    margin: 0 auto;
+}
+
+.timer {
+    width: 200px;
+    height: 200px;
+    border: 25px solid #b2943c;
+    padding: 10px;
+    margin-bottom: 30px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.timer p {
+    font-size: 70px;
+    font-weight: 600;
+    padding: 0;
+    margin: 0;
+}
+
+button:not(.active) {
+	display: none;
+}
+
+p.result {
+    width: auto;
+    margin-top: 30px;
+}
+
+.textGreen {
+    color: green;
+}
+
+.textRed {
+    color: red;
+}
