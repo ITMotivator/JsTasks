@@ -1,3 +1,11 @@
+.main-task {
+    text-align: center;
+}
+
+table.keyboard {
+    margin-bottom: 0;
+}
+
 table.keyboard td {
     color: black;
     background-color: #E0FFFF;
@@ -21,15 +29,92 @@ textarea.kbText {
     margin: 0 auto;
 }
 
-#capsLock, #enter, #space {
+table.keyboard td[data-type="serviceKey"] {
     font-size: 12px;
+    background-color: #afd3d3;
+}
+
+table.keyboard td.letter {
+    background-color: #d2f3f3;
+}
+
+table.keyboard td.letter.empty {
+    background-color: #E0FFFF;
 }
 
 #capsLock.uppercase {
     color: red;
 }
 
-#backSpace {
-    font-size: 16px;
-    font-weight: 900;
+button#clear {
+    margin-right: 10px;
+}
+
+.main-task button.btn {
+    color: #2F4454;
+    background-color: #E0FFFF;
+    border: 2px solid #4682B4;
+    margin: 10px 0 15px;
+    font-weight: 500;
+}
+
+.main-task button.btn:focus {
+    box-shadow: none;
+}
+
+.main-task button.btn:hover {
+    background-color: #d2f3f3;
+    font-weight: 700;
+}
+
+@media (max-width: 769px) {
+    .main-task {
+        width: 100%;
+    }
+}
+
+@media (max-width: 577px) {
+
+    table.keyboard td {
+        font-size: 10px;
+        line-height: 10px;
+        font-weight: 700;
+        border: 1px solid #4682B4;
+        width: 25px;
+        height: 25px;
+        padding: 1px;
+    }
+
+    textarea.kbText {
+        width: 295px;
+    }
+
+    table.keyboard td[data-type="serviceKey"] {
+        font-size: 8px;
+    }
+
+    .main-task button.btn {
+        width: 125px;
+    }
+}
+
+@media (max-width: 280px) {
+    textarea.kbText {
+        width: 250px;
+    }
+
+    table.keyboard {
+        border-spacing: 2px;
+    }
+
+    table.keyboard td {
+        width: 23px;
+    }
+
+    .main-task button.btn {
+        margin-bottom: 12px;
+        width: 115px;
+        padding: 6px;
+        font-size: 14px;
+    }
 }

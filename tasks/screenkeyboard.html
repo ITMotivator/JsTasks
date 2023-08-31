@@ -16,97 +16,110 @@
     <div class="container">
         <div class="main-task">
             <table class="keyboard">
-                <tr>
-                    <td>0</td>
-                    <td>1</td>
-                    <td>2</td>
-                    <td>3</td>
-                    <td>4</td>
-                    <td>5</td>
-                    <td>6</td>
-                    <td>7</td>
-                    <td>8</td>
-                    <td>9</td>
-                </tr>
-                <tr>
-                    <td class="letter">а</td>
-                    <td class="letter">б</td>
-                    <td class="letter">в</td>
-                    <td class="letter">г</td>
-                    <td class="letter">д</td>
-                    <td class="letter">е</td>
-                    <td class="letter">ё</td>
-                    <td class="letter">ж</td>
-                    <td class="letter">з</td>
-                    <td class="letter">и</td>
-                </tr>
-                <tr>
-                    <td class="letter">й</td>
-                    <td class="letter">к</td>
-                    <td class="letter">л</td>
-                    <td class="letter">м</td>
-                    <td class="letter">н</td>
-                    <td class="letter">о</td>
-                    <td class="letter">п</td>
-                    <td class="letter">р</td>
-                    <td class="letter">с</td>
-                    <td class="letter">т</td>
-                </tr>
-                <tr>
-                    <td class="letter">у</td>
-                    <td class="letter">ф</td>
-                    <td class="letter">х</td>
-                    <td class="letter">ц</td>
-                    <td class="letter">ч</td>
-                    <td class="letter">ш</td>
-                    <td class="letter">щ</td>
-                    <td class="letter">э</td>
-                    <td class="letter">ю</td>
-                    <td class="letter">я</td>
-                </tr>
-                <tr>
-                    <td class="letter">ъ</td>
-                    <td class="letter">ы</td>
-                    <td class="letter">ь</td>
-                    <td>.</td>
-                    <td>,</td>
-                    <td>!</td>
-                    <td>?</td>
-                    <td>:</td>
-                    <td>;</td>
-                    <td id="backSpace">&larr;</td>
-                </tr>
-                <tr>
-                    <td id="capsLock">CapL</td>
-                    <td>/</td>
-                    <td>"</td>
-                    <td>@</td>
-                    <td>*</td>
-                    <td>(</td>
-                    <td>)</td>
-                    <td>&lt;</td>
-                    <td>&gt;</td>
-                    <td id="enter">Entr</td>
-                </tr>
-                <tr>
-                    <td>%</td>
-                    <td>$</td>
-                    <td>№</td>
-                    <td>&</td>
-                    <td id="space" colspan="3"></td>
-                    <td>-</td>
-                    <td>\</td>
-                    <td>_</td>
-                </tr>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>2</td>
+                        <td>3</td>
+                        <td>4</td>
+                        <td>5</td>
+                        <td>6</td>
+                        <td>7</td>
+                        <td>8</td>
+                        <td>9</td>
+                        <td>0</td>
+                    </tr>
+                    <tr>
+                        <td class="letter" data-lang="empty">а</td>
+                        <td class="letter" data-lang="eng">б</td>
+                        <td class="letter" data-lang="eng">в</td>
+                        <td class="letter" data-lang="eng">г</td>
+                        <td class="letter" data-lang="eng">д</td>
+                        <td class="letter" data-lang="eng">е</td>
+                        <td class="letter" data-lang="eng">ё</td>
+                        <td class="letter" data-lang="eng">ж</td>
+                        <td class="letter" data-lang="eng">з</td>
+                        <td class="letter" data-lang="empty">и</td>
+                    </tr>
+                    <tr>
+                        <td class="letter" data-lang="empty">й</td>
+                        <td class="letter" data-lang="eng">к</td>
+                        <td class="letter" data-lang="eng">л</td>
+                        <td class="letter" data-lang="eng">м</td>
+                        <td class="letter" data-lang="eng">н</td>
+                        <td class="letter" data-lang="eng">о</td>
+                        <td class="letter" data-lang="eng">п</td>
+                        <td class="letter" data-lang="eng">р</td>
+                        <td class="letter" data-lang="eng">с</td>
+                        <td class="letter" data-lang="empty">т</td>
+                    </tr>
+                    <tr>
+                        <td class="letter" data-lang="empty">у</td>
+                        <td class="letter" data-lang="eng">ф</td>
+                        <td class="letter" data-lang="eng">х</td>
+                        <td class="letter" data-lang="eng">ц</td>
+                        <td class="letter" data-lang="eng">ч</td>
+                        <td class="letter" data-lang="eng">ш</td>
+                        <td class="letter" data-lang="eng">щ</td>
+                        <td class="letter" data-lang="eng">э</td>
+                        <td class="letter" data-lang="eng">ю</td>
+                        <td class="letter" data-lang="empty">я</td>
+                    </tr>
+                    <tr>
+                        <td class="letter" data-lang="empty">ъ</td>
+                        <td class="letter" data-lang="eng">ы</td>
+                        <td class="letter" data-lang="eng">ь</td>
+                        <td>.</td>
+                        <td>,</td>
+                        <td>!</td>
+                        <td>?</td>
+                        <td>@</td>
+                        <td id="backSpace" data-type="serviceKey" colspan="2">bSpace &larr;</td>
+
+                    </tr>
+                    <tr>
+                        <td id="capsLock" data-type="serviceKey" colspan="2">Capslock</td>
+                        <td>"</td>
+                        <td>'</td>
+                        <td>*</td>
+                        <td>:</td>
+                        <td>;</td>
+                        <td>%</td>
+                        <td>/</td>
+                        <td>\</td>
+                    </tr>
+                    <tr>
+                        <td>(</td>
+                        <td>)</td>
+                        <td>[</td>
+                        <td>]</td>
+                        <td>{</td>
+                        <td>}</td>
+                        <td>&lt;</td>
+                        <td>&gt;</td>
+                        <td id="enter" data-type="serviceKey" colspan="2">Enter</td>
+                    </tr>
+                    <tr>
+                        <td id="lang" data-type="serviceKey" data-lang-type="ru">RU</td>
+                        <td>$</td>
+                        <td>#</td>
+                        <td>&</td>
+                        <td id="space" data-type="serviceKey" colspan="3"></td>
+                        <td>-</td>
+                        <td>+</td>
+                        <td>=</td>
+                    </tr>
+                </tbody>
+
             </table>
+            <button id="clear" type="button" class="btn">Очистить</button>
+            <button id="copy" type="button" class="btn"
+                title="Копировать в буфер обмена">Копировать</button>
             <textarea class="kbText" disabled></textarea>
 
         </div>
     </div>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
-        crossorigin="anonymous"></script>
     <script src="../js/screenkeyboard.js"></script>
 </body>
 

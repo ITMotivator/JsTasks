@@ -3,7 +3,6 @@
     let tableCells = document.querySelector('table.cells'),
         tdCells = tableCells.querySelectorAll('td'),
         tryCount = document.querySelector('span[data-color="count"]'),
-        cellsRes = document.querySelector('.count'),
         guessCellRes = document.querySelector('.guessCellText.hidden'),
         playBtn = document.querySelector('button');
 
