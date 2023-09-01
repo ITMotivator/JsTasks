@@ -1,3 +1,6 @@
+.wrapper {
+    align-items: flex-start;
+}
 
 .form-check {
     width: 150px;
@@ -28,4 +31,27 @@ img {
     display: block;
     width: 70px;
     margin-bottom: 10px;
+}
+
+@media (max-width: 577px) {
+    .wrapper {
+        flex-wrap: wrap;
+    }
+
+    .inputsDiv,
+    .result {
+        width: 100%;
+    }
+
+    .result {
+        margin-left: 0;
+    }
+
+    h5 {
+        margin-bottom: 5px;
+    }
+
+    img {
+        margin-top: 10px;
+    }
 }

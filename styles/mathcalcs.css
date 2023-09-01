@@ -13,29 +13,36 @@
 }
 
 p[data-answer="answer"] {
-    color:blue;
+    color: blue;
 }
 
 
 p[data-answer="error"] {
-    color:red;
+    color: red;
 }
 
 @media (max-width: 769px) {
     .wrapper {
         flex-wrap: wrap;
     }
-    .taskConditions, .inputsDiv, .result{
+
+    .taskConditions,
+    .inputsDiv,
+    .result {
         width: 50%;
-     }
+    }
 }
 
 @media (max-width: 577px) {
-    .main-task, .taskConditions, .inputsDiv, .result{
-        width: 100%;
-     }
 
-     .taskConditions p, .result p {
+    .taskConditions,
+    .inputsDiv,
+    .result {
+        width: 100%;
+    }
+
+    .taskConditions p,
+    .result p {
         padding: 5px;
-     }
+    }
 }

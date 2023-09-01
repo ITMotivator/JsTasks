@@ -1,14 +1,15 @@
-.result {
-    width: 70%;
-}
-
 table {
     width: 100%;
 }
 
-.inputsDiv {
-    width: 30%;
-    margin-right: 10px;
+.wrapper {
+    align-items: flex-start;
+}
+
+
+.result {
+    width: 70%;
+    margin-left: 10px;
 }
 
 .wrapper table td {
@@ -20,8 +21,25 @@ table {
     padding: 10px;
     text-align: center;
     vertical-align: middle;
+    border-radius: 0.25rem;
 }
 
-.wrapper {
-    align-items:flex-start;
+.wrapper table td:nth-child(2) {
+    text-align: left;
+}
+
+@media (max-width: 577px) {
+    .wrapper {
+        flex-wrap: wrap;
+    }
+
+    .inputsDiv,
+    .result {
+        width: 100%;
+    }
+
+    .result {
+        margin-left: 0;
+    }
+
 }

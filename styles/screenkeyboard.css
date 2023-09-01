@@ -67,12 +67,6 @@ button#clear {
     font-weight: 700;
 }
 
-@media (max-width: 769px) {
-    .main-task {
-        width: 100%;
-    }
-}
-
 @media (max-width: 577px) {
 
     table.keyboard td {

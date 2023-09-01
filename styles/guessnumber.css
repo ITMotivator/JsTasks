@@ -17,13 +17,19 @@ p[data-result] {
     .wrapper {
         flex-wrap: wrap;
     }
-    .robotImg, .inputsDiv, .result{
+
+    .robotImg,
+    .inputsDiv,
+    .result {
         width: 50%;
-     }
+    }
 }
 
 @media (max-width: 577px) {
-    .main-task, .robotImg, .inputsDiv, .result{
+
+    .robotImg,
+    .inputsDiv,
+    .result {
         width: 100%;
-     }
+    }
 }

@@ -1,11 +1,36 @@
-.inputsDiv, .result {
-    width: 50%;
+.wrapper {
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.result {
+    width: 70%;
+    margin-left: 10px;
+}
+
+.result p:nth-child(2) {
+    text-align: justify;
 }
 
 p[data-result] {
     color: #4169E1;
 }
 
-.wrapper {
-    align-items: flex-start; 
+@media (max-width: 577px) {
+    .wrapper {
+        flex-wrap: wrap;
+    }
+
+    .inputsDiv,
+    .result {
+        width: 100%;
+    }
+
+    .result {
+        margin-left: 0;
+    }
+
+    p {
+        font-size: 14px;
+    }
 }

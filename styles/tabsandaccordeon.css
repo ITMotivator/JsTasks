@@ -11,7 +11,7 @@ ul.nav li {
 
 ul.nav li.nav-item {
     display: flex;
-    align-items:center;
+    align-items: center;
     padding-left: 16px;
     width: 120px;
     border: 1px solid transparent;
@@ -21,7 +21,7 @@ ul.nav li.nav-item {
 ul.nav li.nav-item:hover {
     border: 1px solid rgba(128, 128, 128, 0.438);
     border-bottom: 1px solid transparent;
-    
+
 }
 
 ul.nav li.nav-item.active {
@@ -36,17 +36,20 @@ ul.nav li.nav-item.active a.nav-link {
     border: none;
 }
 
-.tab-content, .accordeon-text {
+.tab-content,
+.accordeon-text {
     background-color: #f2f2f2;
     margin-bottom: 5px;
 }
 
-.tab-content p, .accordeon-text p {
+.tab-content p,
+.accordeon-text p {
     text-align: left;
     text-indent: 30px;
 }
 
-img.car, img.logo {
+img.car,
+img.logo {
     height: 20px;
 }
 
@@ -58,7 +61,7 @@ img.car, img.logo {
 }
 
 .accordeon-item {
-    padding: 10px 10px; 
+    padding: 10px 10px;
     border: 1px solid gray;
     margin-bottom: 5px;
     display: flex;
@@ -70,7 +73,7 @@ img.car, img.logo {
 }
 
 .accordeon-item:hover {
-    border-color:#86b7fe;
+    border-color: #86b7fe;
 }
 
 .accordeon-item-logotitle {
@@ -101,5 +104,12 @@ img.arrow {
     background-color: #e7f1ff;
 }
 
+@media (max-width: 577px) {
+    p {
+        font-size: 16px;
+    }
 
-
+    ul.nav li {
+        margin: 0 auto;
+    }
+}
