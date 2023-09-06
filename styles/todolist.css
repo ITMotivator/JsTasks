@@ -1,0 +1,77 @@
+.main-task * {
+    margin: 0 auto;
+}
+
+.main-task input.form-control {
+    width: 250px;
+    margin: 30px auto;
+}
+
+table.todo td {
+    color: black;
+    background-color: #E0FFFF;
+    font-size: 16px;
+    font-weight: 500;
+    border: 2px solid #4682B4;
+    padding: 10px;
+    text-align: center;
+    vertical-align: middle;
+    border-radius: 0.25rem;
+    width: 50px;
+    height: 50px;
+}
+
+table.todo td:first-child {
+    min-width: 150px;
+}
+
+img.icon {
+    display: block;
+    width: 26px;
+}
+
+img.icon:hover,
+input[type="checkbox"]:hover {
+    cursor: pointer;
+}
+
+input[type="checkbox"] {
+    transform: scale(2);
+    display: block;
+}
+
+input[type="text"] {
+    width: 120px;
+    border-width: 1px;
+}
+
+#done {
+    text-decoration: line-through;
+    color: grey;
+}
+
+@media (max-width: 577px) {
+    table.todo td {
+        font-size: 14px;
+        border-width: 1px;
+        padding: 5px;
+        width: 40px;
+        height: 40px;
+    }
+
+    table.todo td:first-child {
+        min-width: 80px;
+    }
+
+    img.icon {
+        height: 22px;
+    }
+
+    input[type="checkbox"] {
+        transform: scale(1.7);
+    }
+
+    input[type="text"] {
+        width: 60px;
+    }
+}

@@ -70,11 +70,13 @@ img.menu-task-img {
     width: 250px;
     margin: 0 0 5px 0;
     border: 2px solid #4682B4;
+    border-radius: 5px;
 }
 
 p.menu-task-title {
     color: #2F4454;
     border: 2px solid #4682B4;
+    border-radius: 5px;
     width: 250px;
     text-align: center;
     font-weight: 500;
