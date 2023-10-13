@@ -397,9 +397,6 @@ FodyWeavers.xsd
 # JetBrains Rider
 *.sln.iml
 
-img/
-icons/
-
 # dependencies
 /node_modules
 

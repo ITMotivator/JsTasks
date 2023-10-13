@@ -1,0 +1,113 @@
+.main-task {
+    text-align: center;
+}
+
+.wrapper {
+    flex-wrap: wrap;
+}
+
+.product {
+    width: 300px;
+    padding: 10px;
+    border: 2px solid #5cb12f;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+img.product-image {
+    display: block;
+    width: 100%;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+p {
+    padding: 5px;
+}
+
+p.product-price {
+    color: crimson;
+    font-weight: 600;
+}
+
+img.cart {
+    width: 40px;
+    margin: 0 20px;
+}
+
+img.add,
+img.remove {
+    width: 30px;
+    cursor: pointer;
+}
+
+img.countCart {
+    width: 50px;
+    position: absolute;
+    right: 40px;
+    top: 40px;
+}
+
+img.goCart {
+    width: 300px;
+    cursor: pointer;
+}
+
+.counter {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    right: 15px;
+    top: 15px;
+    line-height: 32px;
+    font-size: 25px;
+    font-weight: 700;
+    color: black;
+    background-color: #bcd367;
+    border-radius: 50%;
+    padding: 0;
+    border: 3px solid #5cb12f;
+}
+
+p.smallNums {
+    font-size: 20px;
+}
+
+.finalCart table {
+    margin-bottom: 0;
+}
+
+.finalCart table tr:first-child {
+    background-color: #c5f5a9;
+}
+
+.finalCart table td {
+    color: black;
+    font-size: 16px;
+    font-weight: 500;
+    border: 2px solid #5cb12f;
+    padding: 10px;
+    text-align: center;
+    vertical-align: middle;
+    border-radius: 0.25rem;
+    width: 150px;
+}
+
+.finalCart table td[colspan="4"] {
+    text-align: right;
+    font-size: 18px;
+    background-color: #c5f5a9;
+}
+
+.pay {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.pay img {
+    cursor: pointer;
+}
